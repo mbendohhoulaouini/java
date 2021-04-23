@@ -56,25 +56,5 @@ public class Customer {
 		result += "You earned " + String.valueOf(this.getTotalFrequentRenterPoints()) + " frequent renter points";
 		return result;
 	}
-/*
-	private double getTotalCharge() {
-		double result = 0;
-		Iterator<Rental> rentals = this.rentals.iterator();
-		while (rentals.hasNext()) {
-			Rental each = rentals.next();
-			result += each.getCharge();
-		}
-		return result;
-	}
 	
-	private int getTotalFrequentRenterPoints() {
-		int result = 0;
-		Iterator<Rental> rentals = this.rentals.iterator();
-		while (rentals.hasNext()) {
-			Rental each = rentals.next();
-			result += each.getFrequentRenterPoints();
-		}
-		return result;
-	}*/
-
 }
