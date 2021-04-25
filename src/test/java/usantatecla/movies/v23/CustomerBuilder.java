@@ -1,8 +1,5 @@
 package usantatecla.movies.v23;
 
-import usantatecla.movies.v21.Customer;
-import usantatecla.movies.v21.Rental;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +9,7 @@ public class CustomerBuilder {
 	private List<Rental> rentals;
 	
 	public CustomerBuilder() {
-		rentals = new ArrayList<Rental>();
+		rentals = new ArrayList<>();
 	}
 	
 	public CustomerBuilder name(String name) {

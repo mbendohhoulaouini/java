@@ -1,11 +1,8 @@
 package usantatecla.movies.v23;
 
-import org.junit.Test;
-import usantatecla.movies.v21.Customer;
-import usantatecla.movies.v21.Movie;
-import usantatecla.movies.v21.Rental;
-
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class CustomerTest {
 
